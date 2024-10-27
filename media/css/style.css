@@ -60,12 +60,11 @@ caption {
 
 .box {
     width: 200px;
-    height: 220px;
+    height: 200px;
     border: 5px solid darkblue;
 }
   
 img {
-    max-height: 100%;
     max-width: 100%;
 }
 
@@ -117,6 +116,7 @@ button[type='submit'] {
 
 .grayscale {
     filter:grayscale(100%);
+    filter:
 }
 
 .animate {

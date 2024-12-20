@@ -1,8 +1,21 @@
 
+let button = document.getElementById('button');
+let button2 = document.getElementById('button2');
+
+button.addEventListener('click', sayHello);
+
+button2.addEventListener('click', function() {
+    this.style.color = 'red';
+});
+
 
 function sayHello() {
+    console.log('Mouse click');
     alert('Hello, World!');
 }
+
+
+
 
 
 function validateForm() {
